@@ -1,9 +1,7 @@
 [run]
-source = betty
+source = betty_trees
 omit =
-    betty/_package/*
-    betty/tests/*
-    betty/pytests/*
+    betty_trees/tests/*
 
 [report]
 exclude_lines =

@@ -3,9 +3,10 @@ from tempfile import TemporaryDirectory
 from betty.config import Configuration, ExtensionConfiguration
 from betty.asyncio import sync
 from betty.generate import generate
-from betty.extension.trees import Trees
 from betty.app import App
 from betty.tests import patch_cache, TestCase
+
+from betty_trees.extension import Trees
 
 
 class TreesTest(TestCase):

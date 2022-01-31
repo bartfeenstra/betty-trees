@@ -17,6 +17,6 @@
     "webpack-cli": "^4.5.0"
   },
   "scripts": {
-    "webpack": "webpack --config ./webpack.config.js"
+    "webpack": "webpack --config webpack.config.js"
   }
 }
